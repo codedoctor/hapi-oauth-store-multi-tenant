@@ -1,6 +1,6 @@
 {
   "name": "hapi-oauth-store-multi-tenant",
-  "version": "1.0.4",
+  "version": "1.2.0",
   "private": false,
   "main": "lib/index.js",
   "repository": {
@@ -14,16 +14,11 @@
   "dependencies": {
     "boom": "2.5.1",
     "hoek": "2.4.1",
-    "mongoose-oauth-store-multi-tenant": "1.0.x",
-    "mongoose-plugins-created-by": "0.4.x",
-    "mongoose-plugins-delete-paranoid": "0.2.x",
-    "mongoose-plugins-tags-simple": "0.2.x",
-    "mongoose-plugins-timestamp": "0.2.x",
-    "mongoose-rest-helper": "1.0.x",
-    "underscore": ">=1.6.0"
+    "mongoose-oauth-store-multi-tenant": "1.2.x",
+    "underscore": ">=1.7.0"
   },
   "peerDependencies": {
-    "hapi": ">=6.4.0",
+    "hapi": ">=6.5.0",
     "mongoose": ">=3.8.14"
   },
   "devDependencies": {
@@ -34,17 +29,17 @@
     "grunt": "0.4.5",
     "grunt-cli": "0.1.13",
     "grunt-concurrent": "0.5.0",
-    "grunt-contrib-coffee": "0.10.1",
+    "grunt-contrib-coffee": "0.11.1",
     "grunt-contrib-watch": "0.6.1",
     "grunt-env": "0.4.1",
     "grunt-mocha-cov": "0.2.1",
     "grunt-mocha-test": "0.11.0",
     "grunt-release": "0.7.0",
-    "grunt-shell": "0.7.0",
-    "hapi": "6.4.0",
+    "grunt-shell": "1.0.1",
+    "hapi": "6.7.1",
     "matchdep": "0.3.0",
-    "mocha": "1.20.1",
-    "mongoose": "3.8.14",
+    "mocha": "1.21.4",
+    "mongoose": "3.8.15",
     "should": "4.0.4"
   },
   "config": {
