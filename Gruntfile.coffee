@@ -25,6 +25,8 @@ module.exports = (grunt) ->
       npm_install:
         command: "npm install"
 
+    release: {}
+    
     env:
       test:
         NODE_ENV: "test"

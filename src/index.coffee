@@ -5,7 +5,7 @@ Boom = require 'boom'
 
 mongooseOauthStoreMultiTenant = require 'mongoose-oauth-store-multi-tenant'
 
-module.exports.register = (plugin, options = {}, cb) ->
+module.exports.register = (server, options = {}, cb) ->
   defaults =
     mongodbUrl: null
     autoIndex: false
@@ -30,9 +30,9 @@ module.exports.register = (plugin, options = {}, cb) ->
     models[n] = v 
 
 
-  plugin.expose 'oauthStore', oauthStore
-  plugin.expose 'methods', methods
-  plugin.expose 'models', models
+  server.expose 'oauthStore', oauthStore
+  server.expose 'methods', methods
+  server.expose 'models', models
 
   cb()
 
