@@ -1,9 +1,9 @@
 {
   "name": "hapi-oauth-store-multi-tenant",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "private": false,
   "main": "lib/index.js",
-  "license" : "MIT",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/codedoctor/hapi-oauth-store-multi-tenant.git"
